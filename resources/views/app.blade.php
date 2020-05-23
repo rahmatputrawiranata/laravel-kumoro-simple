@@ -119,12 +119,12 @@
                                 <img src="{{Voyager::image($row->photo)}}" alt="">
                                 <div class="hover-area">
                                     <div class="btn-wraper">
-                                        <a href="https://wa.me/{{setting('whatsapp_number')}}?text={{$row->whatsapp_text}}" class="btn btn-primary icon-left style3"><i class="icon icon-shopping-cart2"></i> Order Melalui Whatsapp</a>
+                                        <a href="https://wa.me/{{setting('site.whatsapp_number')}}?text={{$row->whatsapp_text}}" class="btn btn-primary icon-left style3"><i class="icon icon-shopping-cart2"></i> Order Melalui Whatsapp</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="product-footer">
-                                <h2 class="product-title"><a href="https://wa.me/{{setting('whatsapp_number')}}?text={{$row->whatsapp_text}}">{{$row->nama}}</a></h2>
+                                <h2 class="product-title"><a href="https://wa.me/{{setting('site.whatsapp_number')}}?text={{$row->whatsapp_text}}">{{$row->nama}}</a></h2>
                                 <span class="price">
                                     <ins>
                                         <span class="woocommerce-Price-amount amount">
